@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.header-bg{
+  background-image: url('../public/assets/_Layer_.png');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+}
+.header{
+  width: 1200px;
+  margin: auto;
+  padding-top: 20px
+}
+.header-nav ul{
+  display: flex;
+}
+.header-nav ul li{
+  list-style-type: none;
+  color: black;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+.header-nav ul button{
+  background-color: #ff7600;
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+}
+.header-nav a{
+  text-decoration: none;
+}
+.header-content{
+  width: 50%;
+  margin: auto;
+  float: left;
+}
+.header-content h2{
+  font-size: 35px;
+  padding-top: 125px;
+}
+.header-badge{
+  background: white;
+  width: 34%;
+  height: 20vh;
+  position: absolute;
+  bottom: 90px;
+  text-align: center;
+  border-radius: 10px;
+}
+.header-badge button{
+  background-color: #ff7600;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 17px;
+}
+.service{
+  width:1200px;
+  margin: auto;
+}
+.service i{
+  font-size: 60px;
+  color: #ff7600;
+}
+.service-content{
+  margin-top: 90px;
+}
+.service h5{
+  margin-top: 20px;
+}
+.service p{
+  margin-top: 20px;
+  margin: 40px;
+}
+.about{
+  background-image: url('../public/assets/Group\ 10.png');
+  height: 125vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+}
+.Process{
+  background-image: url('../public/assets/Group\ 13.png');
+  height: 125vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment:scroll;
+}
+
+.footer{
+  background: #e4f1f2;
+  padding-bottom: 10px;
+}
+.ftr{
+  width: 1200px;
+  margin: auto;
+}
+.footer-content{
+  padding: 160px 0;
+}
+.line{
+  background-color: rgba(128, 128, 128, 0.568);
+  width: 1px;
+  height: 20vh;
+}
+.ftr2{
+  margin-left: 150px;
+}
+.head-color{
+  color:#14e1e1;
+}
+.contact{
+  height: 100vh;
+  width: 900px;
+  margin: auto;
+}
+form{
+  line-height: 50px;
+
+}
+
+input{
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  margin: 0 50px;
+  margin-top: 40px;
+}
+form button{
+  padding: 0px 48px;
+  color: white;
+  background-color: #ff7600;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  transform: translate(-50%,100%);
+}
+.contact{
+  position: relative;
+}
+.footer ul{
+  display: flex;
+}
+.footer ul li{
+  list-style-type: none;
+  color: black;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+.footer ul a{
+  text-decoration: none;
+}
+.ftr-content1{
+  display: flex;
+  justify-content: space-between;
+}
+.blogss{
+  background-image: url('../public/assets/Rectangletestimonial-bg.png');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+}
+.blogs{
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+}
+.blogs img{
+  width: 100%;
+  border-radius: 15px;
+}
+.blogs span{
+  color: red;
+}
+.blog-content{
+  margin-top: 30px;
+}
+.logo-img{
+  width: 15%;
+}
